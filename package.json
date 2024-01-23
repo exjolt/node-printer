@@ -1,7 +1,7 @@
 {
   "name": "@exjolt/node-printer",
   "description": "Node.js printer bindings",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "homepage": "https://github.com/exjolt/node-printer",
   "author": {
     "name": "Ion Lupascu",
@@ -21,6 +21,7 @@
     "nodeunit": "*",
     "prebuild": "^11.0.3",
     "prebuild-ci": "^4.0.0",
+    "node-abi": "^3.54.0",
     "patch-package": "^6.4.7"
   },
   "engines": {
