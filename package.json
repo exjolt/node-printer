@@ -18,14 +18,14 @@
     "url": "git://github.com/exjolt/node-printer.git"
   },
   "devDependencies": {
-    "nodeunit": "*",
-    "prebuild": "^11.0.3",
-    "prebuild-ci": "^4.0.0",
     "node-abi": "^3.54.0",
-    "patch-package": "^6.4.7"
+    "nodeunit": "*",
+    "patch-package": "^8.0.0",
+    "prebuild": "^12.1.0",
+    "prebuild-ci": "^4.0.0"
   },
   "engines": {
-    "node": ">= 4.0.0"
+    "node": ">= 6.9.0"
   },
   "scripts": {
     "install": "prebuild-install || node-gyp rebuild",
@@ -49,6 +49,7 @@
   "main": "./lib/printer",
   "dependencies": {
     "nan": "^2.18.0",
+    "node-gyp": "^10.0.1",
     "prebuild-install": "^7.0.1"
   },
   "types": "types/index.d.ts"
